@@ -1,0 +1,353 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Rubik;
+    background-color:hsl(0, 0%, 100%);
+}
+/* paragraph */
+p {
+    font-size: 16px;
+    margin: 9px;
+}
+
+/* background  greyish and viiolet*/
+.box-2 {
+    background-image: linear-gradient( hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    height: 75rem;
+    width: 32rem;
+    border: 2px solid hsl(264, 100%, 61%);
+    border-top: 2rem;
+    border-radius: 20rem;
+    display: flex;
+    position: relative;
+    margin: 3rem -7rem;
+    top: -2rem;
+}
+.box-1 {
+    background-color: rgb(245, 243, 247);
+    height: 49rem;
+    width: 19rem;
+    border-width: 2rem 2px 2px;
+    border-right-color: rgb(136, 56, 255);
+    border-bottom-color: rgb(136, 56, 255);
+    border-left-color: rgb(136, 56, 255);
+    display: flex;
+    position: relative;
+    margin: 12rem -6rem -83rem 72rem;
+    border-radius: 60rem 0% 0px 1px;
+}
+.mob {
+    height: 46rem;
+    width: 19rem;
+    background-color: hsl(270, 20%, 96%);
+    display: grid;
+    position: relative;
+    grid-template-areas:
+        "sec1"
+        "sec2"
+        "sec3"
+        "sec4"
+        "sec5"
+        "sec6"
+        "sec7"
+        "sec8"
+        "sec9"
+        "sec10"
+        "sec11";
+    margin: -46rem 18rem;
+    top: -9.5rem;
+    border: 10px solid hsl(0, 0%, 100%);
+    border-radius: 3rem;
+    box-shadow: -30px 17px 8px -31px rgb(255 254 254), -1px 7px 15px -3px black;
+}
+
+
+/* mobile internal elements */
+
+.notch {
+    width: 11rem;
+    height: 2rem;
+    margin: -10.5rem 23em;
+    background-color: hsl(0, 0%, 100%);
+    /* background-color: red; */
+    position: absolute;
+    border-radius: 2rem;
+}
+.sec1 {
+    grid-area: sec1;
+    height: 6rem;
+    width: 19rem;
+    top: 18px;
+    background-image: linear-gradient( hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 2rem;
+    margin-top: 3px;
+    border-radius: 36px 34px 2% 0%;
+}
+.sec1-a{
+    display: flex;
+    position: absolute;
+}
+.sec1-1{
+    margin: 1px;
+    position: relative;
+    bottom: -37px;
+   
+}
+.sec1-2 img {
+    margin: 32px -8px;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 34px;
+    border: 2px solid white;
+}
+.sec1-3 h3 {
+    margin: 37px 30px;
+    color:white ;
+}
+.sec1-4 {
+    margin: 2.5rem -15rem 0rem 7rem;
+    position: absolute;
+    padding: 0rem -1rem;
+    color: hsl(276, 100%, 81%);
+}
+.sec1-5 {
+    margin: 35px 15rem;
+    position: absolute;
+}
+
+.sec2 {
+    grid-area: sec2;
+    height: 3.5rem;
+    width: 12rem;
+    border-radius: 18px 17px 12px 3px;
+    margin: 0.5rem 0.5rem;
+    background-color:  hsl(270, 7%, 64%);
+    color: hsl(276, 55%, 52%);
+}
+.sec3 {
+    grid-area: sec3;
+    height: 4.5rem;
+    width: 13rem;
+    border-radius: 18px 17px 12px 3px;
+    margin: 0rem 0.5rem;
+    background-color:  hsl(270, 7%, 64%);
+    color: hsl(276, 55%, 52%);
+}
+
+.sec4 img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 3rem;
+}
+.sec4 {
+    grid-area: sec4;
+    height: 2rem;
+    width: 11rem;
+    border-radius: 1rem;
+    margin: 0.5rem 3rem;
+    display: grid;
+    grid-template-areas: "pic1 pic2 pic3";
+    grid-gap: 0.5rem;
+    margin: 1rem 6rem;
+}
+.pic1{
+    grid-area:pic1;
+}
+.pic2{
+    grid-area:pic2;
+}
+.pic3{
+    grid-area:pic3;
+}
+.sec5 {
+    grid-area: sec5;
+    height: 3.5rem;
+    width: 12rem;
+    background-color: hsl(276, 55%, 52%);
+    border-radius: 16px 18px 3px 13px;
+    margin: 1.5rem 7rem;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 3%, 6%);
+}
+.sec6 {
+    grid-area: sec6;
+    height: 2rem;
+    width: 10rem;
+    background-color: hsl(276, 55%, 52%);
+    border-radius: 16px 18px 3px 13px;
+    margin: -20px 9rem;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 3%, 6%);
+}
+.sec7 {
+    grid-area: sec7;
+    height: 5.5rem;
+    width: 14rem;
+    top: 4px;
+    border-radius: 18px 17px 12px 3px;
+    margin: 1rem 0rem;
+    background-color:  hsl(270, 7%, 64%);
+    color: hsl(276, 55%, 52%);
+}
+.sec8 {
+    grid-area: sec8;
+    height: 3rem;
+    width: 15.5rem;
+    top: 4px;
+    background-image: linear-gradient( hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 18px 17px 12px 3px;
+    margin: 0rem 0rem;
+}
+.sec8a{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.sec8-1 {
+    border: 2px solid hsl(289, 100%, 72%);
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.5rem 1.5rem;
+    position: relative;
+    border-radius: 14px;
+}
+.sec8-2 {
+    display: flex;
+    position: absolute;
+    margin: 4px 56px;
+    color: hsl(0, 0%, 100%);
+}
+.sec8-3 {
+    display: flex;
+    position: absolute;
+    margin: 8px 12rem;
+    font-size: x-large;
+    color: hsl(0, 0%, 100%);
+}
+.sec9 {
+    grid-area: sec9;
+    height: 3rem;
+    width: 15.5rem;
+    top: 4px;
+    background-image: linear-gradient( hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 18px 17px 12px 3px;
+    margin: 0.5rem 0rem;
+}
+.sec10 {
+    grid-area: sec10;
+    height: 3rem;
+    width: 16rem;
+    border-radius: 2rem;
+    margin: 0rem 1.5rem;
+}
+
+.textbox {
+    height: 3rem;
+    width: 16rem;
+    border-radius: 3rem;
+    color:  hsl(206, 6%, 79%);
+}
+
+.sec11 {
+    grid-area: sec11 / sec11 / sec11 / sec11;
+    height: 2.5rem;
+    width: 2.5rem;
+    top: 1px;
+    background-color: rgb(62, 39, 83);
+    border-radius: 2rem;
+    margin: -43.8px 14.5rem;
+}
+.arrow {
+    color: white;
+    margin: 7px 11px;
+}
+
+/* Main heading */
+.mainhead {
+    color: hsl(271, 36%, 24%);
+    margin: 15rem -39rem -4rem 28.5rem;
+    display: flex;
+    position: absolute;
+    font-size: larger;
+}
+/* paragraph */
+.para {
+    margin: -23rem -22rem -4rem 28rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    color:hsl(270, 7%, 64%);
+}
+@media only screen and (max-width: 375px) {
+    .box-2 {
+        background-image: linear-gradient( hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+        height: 58rem;
+        width: 32rem;
+        border: 2px solid hsl(264, 100%, 61%);
+        border-top: 2rem;
+        border-radius: 20rem;
+        display: flex;
+        position: relative;
+        margin: -15rem -19rem;
+        top: -2rem;
+    }
+    .box-1 {
+        background-color: rgb(245, 243, 247);
+        height: 43rem;
+        width: 13rem;
+        border-width: 2rem 2px 2px;
+        border-right-color: rgb(136, 56, 255);
+        border-bottom-color: rgb(136, 56, 255);
+        border-left-color: rgb(136, 56, 255);
+        display: flex;
+        position: relative;
+        margin: 29rem -6rem -94rem 11rem;
+        border-radius: 60rem 0% 0px 1px;
+    }
+    .para {
+        margin: 10rem 11rem -21rem 0rem;
+        text-align: center;
+        line-height: 1.5rem;
+        color: hsl(270, 7%, 64%);
+    }
+    .mainhead {
+        color: hsl(271, 36%, 24%);
+        margin: 48rem -39rem -4rem 1.5rem;
+        display: flex;
+        position: absolute;
+        font-size: larger;
+        
+    }
+    .notch {
+        width: 11rem;
+        height: 2rem;
+        margin: -32.5rem 7rem;
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        border-radius: 2rem;
+    }
+    .mob {
+        height: 46rem;
+        width: 19rem;
+        background-color: hsl(270, 20%, 96%);
+        display: grid;
+        position: relative;
+        grid-template-areas:
+            "sec1"
+            "sec2"
+            "sec3"
+            "sec4"
+            "sec5"
+            "sec6"
+            "sec7"
+            "sec8"
+            "sec9"
+            "sec10"
+            "sec11";
+        margin: -24rem 2rem;
+        top: -9.5rem;
+        border: 10px solid hsl(0, 0%, 100%);
+        border-radius: 3rem;
+        box-shadow: -30px 17px 8px -31px rgb(255 254 254), -1px 7px 15px -3px black;
+    }
+  }
